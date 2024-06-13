@@ -34,9 +34,9 @@ let noTLS = 'true'; // false
 let BotToken =''; //可以为空，或者@BotFather中输入/start，/newbot，并关注机器人
 let ChatID =''; //可以为空，或者@userinfobot中获取，/start
 let vmessLinks = [ //本地CFcdnVmess节点池
-	//'vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInN3IHZtZXNzLXdzIiwNCiAgImFkZCI6ICJ2aXNhLmNvbSIsDQogICJwb3J0IjogIjgwIiwNCiAgImlkIjogImNjNmU0ZDdjLWRmOWItNDdmNS04N2QyLTM0N2FiMWIzOTYyMCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAibm9uZSIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiZmFjZWQtbGVnZW5kLWd1bGYtdGlmZmFueS50cnljbG91ZGZsYXJlLmNvbSIsDQogICJwYXRoIjogIi9jYzZlNGQ3Yy1kZjliLTQ3ZjUtODdkMi0zNDdhYjFiMzk2MjAtdm1lc3MiLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=',
+	'vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInN3IHZtZXNzLXdzIiwNCiAgImFkZCI6ICJ2aXNhLmNvbSIsDQogICJwb3J0IjogIjgwIiwNCiAgImlkIjogImNjNmU0ZDdjLWRmOWItNDdmNS04N2QyLTM0N2FiMWIzOTYyMCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAibm9uZSIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiZmFjZWQtbGVnZW5kLWd1bGYtdGlmZmFueS50cnljbG91ZGZsYXJlLmNvbSIsDQogICJwYXRoIjogIi9jYzZlNGQ3Yy1kZjliLTQ3ZjUtODdkMi0zNDdhYjFiMzk2MjAtdm1lc3MiLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=',
 ];
-let vmessLinksURL = 'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/vmesslinks';//CFcdnVmess节点池URL
+let vmessLinksURL = //'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/vmesslinks';//CFcdnVmess节点池URL
 let proxyhosts = [//本地代理域名池
 	//'ppfv2tl9veojd-maillazy.pages.dev',
 ];
